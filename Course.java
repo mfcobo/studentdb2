@@ -13,7 +13,9 @@ public class Course implements Serializable {
     }
     public void setCourseCode(String courseCode){this.courseCode = courseCode;}
     public void setCourseDescription(String courseDescription){this.courseDescription = courseDescription;}
-
+    
+    public string getCourseCode(){return courseCode;}
+    public string getCourseDescription(){return courseDescription;}
     @Override
     public String toString() {
         return  "Course Code = " + courseCode +
